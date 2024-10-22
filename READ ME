@@ -1,0 +1,52 @@
+# 2D Platformer Game
+
+## Description
+
+This is a 2D side-scrolling platformer game built using Python and Pygame. The player must survive waves of monsters,
+collect ammo and health boxes, and score as high as possible. The game offers various difficulty levels, and the player
+can move, jump, shoot, and collect power-ups to stay alive.
+
+## Features
+
+- Different difficulty levels: Easy, Hard, Impossible, and Godmode
+- Side-scrolling environment with smooth animations
+- Randomly spawning monsters and power-ups (ammo and health)
+- Shooting mechanics and ammo management
+- Health system and game-over logic
+- Background music and sound effects, with options to mute sound/music
+- Pause and resume functionality
+- Score tracking
+- High replayability with dynamic enemy and bonus spawning
+
+## Controls
+
+- **A / Left Arrow**: Move left
+- **D / Right Arrow**: Move right
+- **Space / W / Up Arrow**: Jump
+- **X**: Shoot bullets
+- **P**: Pause / Resume the game
+- **M**: Mute/unmute sound effects
+- **N**: Mute/unmute background music
+- **C**: Change difficulty (only when paused)
+- **Escape**: Exit the game
+
+## Difficulty Levels
+
+- **Easy**: Start with 3 health points, ammo boxes spawn every 10 seconds.
+- **Hard**: Start with 1 health point, ammo boxes spawn every 30 seconds, increased enemy spawn rate.
+- **Impossible**: Start with 1 health point and no ammo boxes, extremely fast enemy spawn rate.
+- **Godmode**: Start with 42 health points, unlimited ammo, and power-ups every 5 seconds.
+
+## About game:
+- Ghosts are immutable to bullets, only zombies can be shot
+- To change difficulty you need to press P => C => **Difficulty(E,H,I,G)** => P
+
+## Installation and Setup
+
+1. Install Python: [Download Python](https://www.python.org/downloads/)
+2. Install Pygame:
+   ```bash
+   pip install pygame
+
+
+### Credentials S.F.
